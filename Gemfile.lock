@@ -1,0 +1,39 @@
+GIT
+  remote: git://github.com/sinatra/sinatra-contrib.git
+  revision: 6da79a0309ccc652c18e6edfd29d59f66b251a39
+  specs:
+    sinatra-contrib (1.4.0)
+      backports (>= 2.0)
+      eventmachine
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (~> 1.3)
+
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: bc6037326fb145407a4fbfea6b39552c11ec4353
+  specs:
+    sinatra (1.4.2)
+      rack (~> 1.5, >= 1.5.2)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.3.0)
+    eventmachine (1.0.3-x86-mingw32)
+    rack (1.5.2)
+    rack-protection (1.5.0)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    tilt (1.3.7)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  sinatra!
+  sinatra-contrib!
